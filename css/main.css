@@ -1,3 +1,4 @@
+/*navbar style*/
 .navbar {
   background: #f97300;
 }
@@ -27,4 +28,43 @@
 
 .bg-dark {
   background-color: #343a40 !important;
+}
+
+/*header style*/
+.header {
+  background-image: url("../images/headerback.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.71);
+}
+
+.description {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+}
+.description h1 {
+  color: #0089f9;
+}
+.description p {
+  color: #666;
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+  margin: auto;
+}
+.description button {
+  border: 1px solid #0089f9;
+  border: 1px solid #0089f9;
+  background: #0089f9;
+  color: #fff;
 }
