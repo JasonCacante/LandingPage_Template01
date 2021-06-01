@@ -1,49 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>Template Landing Page</title>
-</head>
-<body>
-    <!-- navbar -->  
-    <nav class="navbar navbar-expand-lg fixed-top bg-primary">  
-        <a class="navbar-brand" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">     <ul class="navbar-nav mr-4">
-            <li class="nav-item">
-            <a class="nav-link" data-value="about" href="#">About</a>        </li>  
-            <li class="nav-item">
-            <a class="nav-link " data-value="portfolio"href="#">Portfolio</a>    
-            </li>
-            <li class="nav-item"> 
-            <a class="nav-link " data-value="blog" href="#">Blog</a>         </li>   
-            <li class="nav-item">  
-            <a class="nav-link " data-value="team" href="#">         Team</a>       </li>  
-            <li class="nav-item"> 
-            <a class="nav-link " data-value="contact" href="#">Contact</a>       </li> 
-            </ul> 
-        </div>
-    </nav>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<title>Template Landing Page</title>
+	</head>
+	<body>
+		<!-- navbar -->
+		<nav class="navbar navbar-expand-lg fixed-top bg-primary">
+			<a class="navbar-brand" href="#">Home</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-4">
+					<li class="nav-item">
+						<a class="nav-link" data-value="about" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-value="portfolio" href="#">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-value="blog" href="#">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-value="team" href="#"> Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-value="contact" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
-    <header class="header">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="description text-center">
-                <h1>    Hello ,Welcome To My official Website
-                    <p>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>                    
-                    <button class="btn btn-outline-secondary btn-lg">See more</button>   
-                </h1>  
-             </div>
-        </div>
-    </header>
-    <script type="text/javascript" src='js/main.js'></script>
-</body>
+		<header class="header">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="description text-center">
+					<h1>
+						Hello ,Welcome To My official Website
+						<p>
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit
+							anim id est laborum.
+						</p>
+						<button class="btn btn-outline-secondary btn-lg">See more</button>
+					</h1>
+				</div>
+			</div>
+		</header>
+
+		<!-- About Section-->
+		<div class="row about">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img
+					src="images/about_img.png"
+					class="img-fluid"
+					alt="Image of a person"
+				/>
+				<span class="text-justify">S.Web Developer</span>
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-12 desc">
+				<h3>D.John</h3>
+				<p>
+					ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+					veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+					ea commodo consequat. Duis aute irure dolor in reprehenderit in
+					voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+					sint occaecat cupidatat non proident, sunt in culpa qui officia
+					deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
 </html>
