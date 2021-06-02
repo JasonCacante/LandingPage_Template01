@@ -102,3 +102,16 @@
 	line-height: 2;
 	color: #888;
 }
+
+.about .title {
+	width: 100%;
+	height: 4em;
+	text-align: center;
+	background-color: #0088f80e;
+}
+
+.titleH3 {
+	color: #0089f9;
+	font-size: 2.5em;
+	font-weight: 700;
+}
